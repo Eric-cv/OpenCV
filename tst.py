@@ -8,7 +8,6 @@
 import cv2 as cv
 import numpy as np
 
-print('Hi Python!')
 src = cv.imread('image\girl.jpg')
 cv.namedWindow('input_image', cv.WINDOW_AUTOSIZE)
 cv.imshow('input_image', src)
