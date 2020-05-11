@@ -47,6 +47,7 @@ cv.imshow('input_image', src)
 # print('time consume:%s' % (time * 1000))
 
 # 使用高斯模糊api, 卷积核size x 和标准差sigma设置一个就可以，设置一个另外一个就不会起作用
+# test git
 dst = cv.GaussianBlur(src, (5, 5), 0)
 cv.imshow('gauss_blur', dst)
 cv.waitKey(0)
